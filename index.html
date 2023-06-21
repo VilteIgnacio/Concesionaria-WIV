@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./recursos/iconos/sport-car.png" type="image/x-icon">
+  <title>Concesionaria WIV</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  <header>
+    <h1>WIV</h1>
+  <nav><a href="#">Inicio</a>
+    <a href="./paginas/valoranos.html">Valoranos</a></nav>
+  </header>
+  <h2>La Concesionaria modelo de Argentina</h2>
+  <div class="auto" id="auto1">
+    <img src="./recursos/imagenes/auto1.jpg" alt="auto1">
+    <h2>Porsche 911 amarillo</h2>
+    <h4>precio: $3.000.000 USD</h4>
+    <p>Stock: <span id="stock1"></span></p>
+    <button onclick="agregarAlCarrito(0)">Agregar al carrito</button>
+    <button onclick="comprar(0)">Comprar</button>
+  </div>
+
+  <div class="auto" id="auto2">
+    <img src="./recursos/imagenes/auto2.jpg" alt="auto2">
+    <h2>Ferrari rojo 458 Italia</h2>
+    <h4>precio: $6.000.000 USD</h4>
+    <p>Stock: <span id="stock2"></span></p>
+    <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+    <button onclick="comprar(1)">Comprar</button>
+  </div>
+
+  <div class="auto" id="auto3">
+    <img src="./recursos/imagenes/auto3.jpg" alt="auto3">
+    <h2>Camaro 6</h2>
+    <h4>precio: $2.400.000 USD</h4>
+    <p>Stock: <span id="stock3"></span></p>
+    <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+    <button  onclick="comprar(2)">Comprar</button>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
